@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+import withNetlify from 'next-on-netlify';
 
-export default nextConfig;
+const nextConfig = {
+  // Any other Next.js config options you want to include
+};
+
+export default withNetlify(nextConfig);
