@@ -1,95 +1,299 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import "./page.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+	<>
+		{/* <!-- ============================================ -->
+		<!--             Side By Side Reverse             -->
+		<!-- ================== https://www.codestitch.app/app/dashboard/stitches/76 =================== --> */}
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+		<section id="sbsr-76">
+			<div class="cs-container">
+				<div class="cs-wrapper">
+					<picture class="cs-picture">
+						<source media="(max-width: 600px)" srcset="./images/michael-raiders-clothing.jpg">
+						<source media="(min-width: 601px)" srcset="./images/michael-raiders-clothing.jpg">
+						<img loading="lazy" decoding="async" src="./images/michael-raiders-clothing.jpg" alt="body builder" width="500" height="552" aria-hidden="true">
+					</picture>
+				</div>
+				<div class="cs-content">
+					<span class="cs-topper">Small Group Training</span>
+					<h2 class="cs-title">Make your circle healthier together</h2>
+					<p class="cs-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc massa ut sed odio cursus. Malesuada scelerisque eget eu, sollicitudin tellus nibh aenean enim sed. Ut vitae eget commodo consectetur felis augue. Condimentum pellentesque sed aliquet leo in potenti libero.
+					</p>
+					<a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+				</div>
+			</div>
+		</section>
+									
+
+
+
+
+		<!-- ============================================ -->
+		<!--                   Steps                      -->
+		<!-- ================= https://codestitch.app/app/dashboard/stitches/1171 ====================== -->
+
+		<section id="steps-1171">
+			<div class="cs-container">
+				<div class="cs-content">
+					<span class="cs-topper">Our Work Process</span>
+					<h2 class="cs-title">How To Get Started</h2>
+					<p class="cs-text">
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa libero sint hic accusantium exercitationem, voluptatem officia quaerat velit quis ullam?
+					</p>
+				</div>
+				<ul class="cs-card-group">
+					<li class="cs-item">
+						<picture class="cs-picture">
+							<img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/lightbulb.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true">
+						</picture>
+						<h3 class="cs-h3">About Me</h3>
+						<p class="cs-item-p">
+							Extensible for web iterate process before meta services impact with employee engagement strategies.
+						</p>
+					</li>
+					<li class="cs-item">
+						<picture class="cs-picture">
+							<img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/puzzle.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true">
+						</picture>
+						<h3 class="cs-h3">Web Tools, Technologies, & Tips</h3>
+						<p class="cs-item-p">
+							Favorite tools for different uses.
+						</p>
+					</li>
+					<li class="cs-item">
+						<picture class="cs-picture">
+							<img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/box.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true">
+						</picture>
+						<h3 class="cs-h3">Projects</h3>
+						<p class="cs-item-p">
+							Extensible for web iterate process before meta services impact with employee engagement strategies.
+						</p>
+					</li>
+					<li class="cs-item">
+						<picture class="cs-picture">
+							<img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true">
+						</picture>
+						<h3 class="cs-h3">Interesting stuff</h3>
+						<p class="cs-item-p">
+							Playground for Videos, websites, and other interesting stuff.
+						</p>
+					</li>
+				</ul>
+			</div>
+			<!--Tire Screech-->
+			<img class="cs-graphic" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/tire-mark.svg" alt="icon" width="840" height="357" loading="lazy" decoding="async" aria-hidden="true">
+		</section>
+
+
+
+
+
+
+
+
+		<!-- ============================================ -->
+		<!--                   Services                   -->
+		<!-- ================ https://www.codestitch.app/app/dashboard/stitches/1191 ==================== -->        
+
+		<section id="services-1191">
+			<div class="cs-container">
+				<div class="cs-content">
+					<span class="cs-topper">Other services</span>
+					<h2 class="cs-title">We Provide Quality Auto Repair Services</h2>
+					<p class="cs-text">
+						Facilisis condimentum viverra scelerisque ac morbi sit sed. Turpis sagittis in blandit eleifend tortor ullamcorper eu placerat. Et orci felis volutpat, etiam vitae egestas volutpat pulvinar.
+					</p>
+				</div>
+				<!--Placed in a wrapper div so we can position the car absolutely inside the container to be centered in the middle of the list on desktop-->
+				<div class="cs-wrapper">
+					<!--Car-->
+					<picture class="cs-image">
+						<!--Mobile Image-->
+						<source media="(max-width: 600px)" srcset="./images/08-acura-rdx-transparent-rdx-v2.png">
+						<!--Tablet and above Image-->
+						<source media="(min-width: 601px)" srcset="./images/08-acura-rdx-transparent-rdx-v2.png">
+						<img loading="lazy" decoding="async" src="./images/08-acura-rdx-transparent-rdx-v2.png" alt="car" width="510" height="193" aria-hidden="true">
+					</picture>
+					<ul class="cs-card-group">
+						<li class="cs-item">
+							<picture class="cs-picture">
+								<img class="cs-icon"
+										src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/engineering%201%20red.svg"
+										loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+							</picture>
+							<!-- Text Grouped For Flexbox-->
+							<a href="./pages/about/new-computer.html">
+								<div class="cs-text-group">
+									<h3 class="cs-h3">Computer Build</h3>
+									<p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+							</a>
+						</li>
+						<li class="cs-item">
+							<picture class="cs-picture">
+								<img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/brake-red.svg"
+										loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+							</picture>
+							<!-- Text Grouped For Flexbox-->
+							<div class="cs-text-group">
+								<h3 class="cs-h3">The Excel Files</h3>
+								<p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						</li>
+						<li class="cs-item">
+							<picture class="cs-picture">
+								<img class="cs-icon"
+										src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/air-conditioner-red.svg"
+										loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+							</picture>
+							<!-- Text Grouped For Flexbox-->
+							<div class="cs-text-group">
+								<h3 class="cs-h3">Magento</h3>
+								<p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						</li>
+						<li class="cs-item">
+							<picture class="cs-picture">
+								<img class="cs-icon"
+										src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/motor%201%20red.svg" loading="lazy"
+										decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+							</picture>
+							<!-- Text Grouped For Flexbox-->
+							<div class="cs-text-group">
+								<h3 class="cs-h3">CES 2025</h3>
+								<p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						</li>
+						<li class="cs-item">
+							<picture class="cs-picture">
+								<img class="cs-icon"
+										src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel-red.svg" loading="lazy"
+										decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+							</picture>
+							<!-- Text Grouped For Flexbox-->
+							<div class="cs-text-group">
+								<h3 class="cs-h3">Photoshop</h3>
+								<p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						</li>
+						<li class="cs-item">
+							<picture class="cs-picture">
+								<img class="cs-icon"
+										src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/contamination-red.svg"
+										loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+							</picture>
+							<!-- Text Grouped For Flexbox-->
+							<div class="cs-text-group">
+								<h3 class="cs-h3">Emissions Repair</h3>
+								<p class="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<a href="" class="cs-button-solid">Book Appointment</a>
+			</div>
+		</section>
+
+
+
+		<!-- ============================================ -->
+		<!--                   Blog                       -->
+		<!-- =============== https://www.codestitch.app/app/dashboard/stitches/846 =================== -->
+
+		<section id="blog-846">
+			<div class="cs-container">
+				<div class="cs-content">
+					<span class="cs-topper">Blog</span>
+					<h2 class="cs-title">Latest News & Articles</h2>
+				</div>
+				<ul class="cs-card-group">
+					<li class="cs-item">
+						<picture class="cs-picture">
+							<!--Mobile Image-->
+							<source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy2.jpg">
+							<!--Tablet and above Image-->
+							<source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy2.jpg">
+							<img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy2.jpg" alt="therapy" width="369" height="290">
+						</picture>
+						<div class="cs-item-content">
+							<span class="cs-date">07 Sep, 2022</span>
+							<h3 class="cs-h3">How Physical Therapy Can Help You Recover from Surgery</h3>
+							<p class="cs-item-text">
+								Physical therapy is often an important part of the recovery process for patients who have undergone surgery.
+							</p>
+							<a href="" class="cs-link">
+								Read More
+								<img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+							</a>
+						</div>
+					</li>
+					<li class="cs-item">
+						<picture class="cs-picture">
+							<!--Mobile Image-->
+							<source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy3.jpg">
+							<!--Tablet and above Image-->
+							<source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy3.jpg">
+							<img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy3.jpg" alt="therapy" width="369" height="290">
+						</picture>
+						<div class="cs-item-content">
+							<span class="cs-date">07 Sep, 2022</span>
+							<h3 class="cs-h3">How Physical Therapy Can Help You Recover from Surgery</h3>
+							<p class="cs-item-text">
+								Physical therapy is often an important part of the recovery process for patients who have undergone surgery.
+							</p>
+							<a href="" class="cs-link">
+								Read More
+								<img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+							</a>
+						</div>
+					</li>
+					<li class="cs-item">
+						<picture class="cs-picture">
+							<!--Mobile Image-->
+							<source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg">
+							<!--Tablet and above Image-->
+							<source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg">
+							<img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" alt="therapy" width="369" height="290">
+						</picture>
+						<div class="cs-item-content">
+							<span class="cs-date">07 Sep, 2022</span>
+							<h3 class="cs-h3">How Physical Therapy Can Help You Recover from Surgery</h3>
+							<p class="cs-item-text">
+								Physical therapy is often an important part of the recovery process for patients who have undergone surgery.
+							</p>
+							<a href="" class="cs-link">
+								Read More
+								<img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+							</a>
+						</div>
+					</li>
+					<li class="cs-item">
+						<picture class="cs-picture">
+							<!--Mobile Image-->
+							<source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg">
+							<!--Tablet and above Image-->
+							<source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg">
+							<img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" alt="therapy" width="369" height="290">
+						</picture>
+						<div class="cs-item-content">
+							<span class="cs-date">07 Sep, 2022</span>
+							<h3 class="cs-h3">How Physical Therapy Can Help You Recover from Surgery</h3>
+							<p class="cs-item-text">
+								Physical therapy is often an important part of the recovery process for patients who have undergone surgery.
+							</p>
+							<a href="" class="cs-link">
+								Read More
+								<img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+							</a>
+						</div>
+					</li>
+				</ul>
+				<a href="" class="cs-button-solid">View All News</a>
+			</div>
+		</section>
+	</>
   );
 }
