@@ -1,8 +1,10 @@
 "use client";
+import Link from 'next/link';
 
-import "./page.css";
+import "./page.css";             
 
 export default function Home() {
+
   	return (
 		<div className="home">
 			{/* <!-- ============================================ -->
@@ -124,12 +126,12 @@ export default function Home() {
 											loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true" />
 								</picture>
 								{/* <!-- Text Grouped For Flexbox--> */}
-								<a href="./pages/about/new-computer.html">
+								<Link href="/about/NewComputer">
 									<div className="cs-text-group">
 										<h3 className="cs-h3">Computer Build</h3>
 										<p className="cs-item-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 									</div>
-								</a>
+								</Link>
 							</li>
 							<li className="cs-item">
 								<picture className="cs-picture">
@@ -192,7 +194,7 @@ export default function Home() {
 							</li>
 						</ul>
 					</div>
-					<a href="" className="cs-button-solid">Book Appointment</a>
+					<a href="#" className="cs-button-solid">Book Appointment</a>
 				</div>
 			</section>
 
@@ -223,7 +225,7 @@ export default function Home() {
 								<p className="cs-item-text">
 									Physical therapy is often an important part of the recovery process for patients who have undergone surgery.
 								</p>
-								<a href="" className="cs-link">
+								<a href="#" className="cs-link">
 									Read More
 									<img className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true" />
 								</a>
@@ -243,7 +245,7 @@ export default function Home() {
 								<p className="cs-item-text">
 									Physical therapy is often an important part of the recovery process for patients who have undergone surgery.
 								</p>
-								<a href="" className="cs-link">
+								<a href="#" className="cs-link">
 									Read More
 									<img className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true" />
 								</a>
@@ -263,7 +265,7 @@ export default function Home() {
 								<p className="cs-item-text">
 									Physical therapy is often an important part of the recovery process for patients who have undergone surgery.
 								</p>
-								<a href="" className="cs-link">
+								<a href="#" className="cs-link">
 									Read More
 									<img className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true" />
 								</a>
@@ -283,14 +285,14 @@ export default function Home() {
 								<p className="cs-item-text">
 									Physical therapy is often an important part of the recovery process for patients who have undergone surgery.
 								</p>
-								<a href="" className="cs-link">
+								<a href="#" className="cs-link">
 									Read More
 									<img className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true" />
 								</a>
 							</div>
 						</li>
 					</ul>
-					<a href="" className="cs-button-solid">View All News</a>
+					<a href="#" className="cs-button-solid">View All News</a>
 				</div>
 			</section>
 		</div>

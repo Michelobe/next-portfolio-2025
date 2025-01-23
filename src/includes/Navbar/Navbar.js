@@ -1,57 +1,8 @@
 "use client";
 
-import { useEffect } from "react";
 import './Navbar.css';
 
 export default function Navbar() {
-    useEffect(() => {
-        // Ensure the script runs in the client
-        const CSbody = document.querySelector("body");
-        const CSnavbarMenu = document.querySelector("#cs-navigation");
-        const CShamburgerMenu = document.querySelector("#cs-navigation .cs-toggle");
-    
-        const ariaExpanded = () => {
-          const csUL = document.querySelector("#cs-expanded");
-          const csExpanded = csUL.getAttribute("aria-expanded");
-    
-          if (csExpanded === "false") {
-            csUL.setAttribute("aria-expanded", "true");
-          } else {
-            csUL.setAttribute("aria-expanded", "false");
-          }
-        };
-    
-        const onHamburgerClick = () => {
-          CShamburgerMenu.classList.toggle("cs-active");
-          CSnavbarMenu.classList.toggle("cs-active");
-          CSbody.classList.toggle("cs-open");
-          ariaExpanded();
-        };
-    
-        const dropDowns = Array.from(
-          document.querySelectorAll("#cs-navigation .cs-dropdown")
-        );
-    
-        const dropdownListeners = dropDowns.map((item) => {
-          const onClick = () => {
-            item.classList.toggle("cs-active");
-          };
-          item.addEventListener("click", onClick);
-          return { item, onClick }; // Store item and handler for cleanup
-        });
-    
-        // Add event listener to hamburger menu
-        CShamburgerMenu.addEventListener("click", onHamburgerClick);
-    
-        // Cleanup function
-        return () => {
-          CShamburgerMenu.removeEventListener("click", onHamburgerClick);
-          dropdownListeners.forEach(({ item, onClick }) =>
-            item.removeEventListener("click", onClick)
-          );
-        };
-      }, []); // Empty dependency array ensures this runs only once
-                            
     return (
 
     <header id="cs-navigation">
@@ -60,7 +11,7 @@ export default function Navbar() {
     <!-- ==================== https://www.codestitch.app/app/dashboard/stitches/758?nav=Top%20Dropdown ================ --> */}
         <div className="cs-container">
             {/* <!--Nav Logo--> */}
-            <a href="" className="cs-logo" aria-label="back to home">
+            <a href="#" className="cs-logo" aria-label="back to home">
                 <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Flogo-black.svg" alt="logo" width="210" height="29" aria-hidden="true" decoding="async" />
             </a>
             {/* <!--Navigation List--> */}
@@ -77,22 +28,22 @@ export default function Navbar() {
                 <div className="cs-ul-wrapper">
                     <ul id="cs-expanded" className="cs-ul" aria-expanded="false">
                         <li className="cs-li">
-                            <a href="../../index.html" className="cs-li-link cs-active">
+                            <a href="#" className="cs-li-link cs-active">
                                 Home
                             </a>
                         </li>
                         <li className="cs-li">
-                            <a href="./about-home.html" className="cs-li-link">
+                            <a href="#" className="cs-li-link">
                                 About
                             </a>
                         </li>
                         <li className="cs-li">
-                            <a href="./new-computer.html" className="cs-li-link">
+                            <a href="#" className="cs-li-link">
                                 Technologies/Tools
                             </a>
                         </li>
                         <li className="cs-li">
-                            <a href="" className="cs-li-link">
+                            <a href="#" className="cs-li-link">
                                 Projects
                             </a>
                         </li>
@@ -104,34 +55,34 @@ export default function Navbar() {
                             </span>
                             <ul className="cs-drop-ul">
                                 <li className="cs-drop-li">
-                                    <a href="" className="cs-li-link cs-drop-link">Web Dev/SEO</a>
+                                    <a href="#" className="cs-li-link cs-drop-link">Web Dev/SEO</a>
                                 </li>
                                 <li className="cs-drop-li">
-                                    <a href="" className="cs-li-link cs-drop-link">Computers</a>
+                                    <a href="#" className="cs-li-link cs-drop-link">Computers</a>
                                 </li>
                                 <li className="cs-drop-li">
-                                    <a href="" className="cs-li-link cs-drop-link">Helpful Tools</a>
+                                    <a href="#" className="cs-li-link cs-drop-link">Helpful Tools</a>
                                 </li>
                                 <li className="cs-drop-li">
-                                    <a href="" className="cs-li-link cs-drop-link">Games</a>
+                                    <a href="#" className="cs-li-link cs-drop-link">Games</a>
                                 </li>
                                 <li className="cs-drop-li">
-                                    <a href="" className="cs-li-link cs-drop-link">Music</a>
+                                    <a href="#" className="cs-li-link cs-drop-link">Music</a>
                                 </li>
                                 <li className="cs-drop-li">
-                                    <a href="" className="cs-li-link cs-drop-link">Tirezapetide</a>
+                                    <a href="#" className="cs-li-link cs-drop-link">Tirezapetide</a>
                                 </li>
                             </ul>
                         </li>
                         <li className="cs-li">
-                            <a href="" className="cs-li-link">
+                            <a href="#" className="cs-li-link">
                                 FAQ
                             </a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            <a href="" className="cs-button-solid cs-nav-button">Contact Us</a>
+            <a href="#" className="cs-button-solid cs-nav-button">Contact Us</a>
 
         </div>
     </header>
