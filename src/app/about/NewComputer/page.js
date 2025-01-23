@@ -131,7 +131,7 @@ export default function NewComputer() {
 								<td className="cs-td">Storage (SSD/HDD)</td>
 								<td className="cs-td">Samsung 990 EVO SSD - 2TB</td>
 								<td className="cs-td">5.5W</td>
-								<td className="cs-td">WD Blue 3.5" PC HDD - 1TB</td>
+								<td className="cs-td">WD Blue 3.5&quot; PC HDD - 1TB</td>
 								<td className="cs-td">6.1W</td>
 							</tr>
 							<tr className="cs-tr">
@@ -222,7 +222,7 @@ export default function NewComputer() {
 							</tbody>
 						</table>
 						
-						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a> --> */}
+						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="#">Learn More</a> --> */}
 					</div>
 				</div>
 			</section>
@@ -307,7 +307,7 @@ export default function NewComputer() {
 							</tbody>
 						</table>
 						
-						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a> --> */}
+						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="#">Learn More</a> --> */}
 					</div>
 				</div>
 			</section>
@@ -385,7 +385,7 @@ export default function NewComputer() {
 							</tbody>
 						</table>              
 						
-						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a> --> */}
+						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="#">Learn More</a> --> */}
 					</div>
 				</div>
 			</section>
@@ -485,7 +485,7 @@ export default function NewComputer() {
 							</tbody>
 						</table>              
 						
-						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a> --> */}
+						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="#">Learn More</a> --> */}
 					</div>
 				</div>
 			</section>
@@ -560,13 +560,13 @@ export default function NewComputer() {
 					<tr className="cs-tr">
 					<td className="cs-td"><strong>Form Factor</strong></td>
 					<td className="cs-td">Compact M.2 NVMe</td>
-					<td className="cs-td">Larger (2.5" or 3.5")</td>
+					<td className="cs-td">Larger (2.5&quot; or 3.5&quot;)</td>
 					</tr>
 					</tbody>
 				</table>
 							
 						
-						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a> --> */}
+						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="#">Learn More</a> --> */}
 					</div>
 				</div>
 			</section>
@@ -643,7 +643,7 @@ export default function NewComputer() {
 					</table>
 						
 						
-						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a> --> */}
+						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="#">Learn More</a> --> */}
 					</div>
 				</div>
 			</section>
@@ -718,13 +718,13 @@ export default function NewComputer() {
 					<tr className="cs-tr">
 					<td className="cs-td"><strong>Form Factor</strong></td>
 					<td className="cs-td">Compact M.2 NVMe</td>
-					<td className="cs-td">Larger (2.5" or 3.5")</td>
+					<td className="cs-td">Larger (2.5&quot; or 3.5&quot;)</td>
 					</tr>
 					</tbody>
 				</table>
 							
 						
-						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a> --> */}
+						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="#">Learn More</a> --> */}
 					</div>
 				</div>
 			</section>
@@ -824,7 +824,7 @@ export default function NewComputer() {
 							</tbody>
 						</table>              
 						
-						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a> --> */}
+						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="#">Learn More</a> --> */}
 					</div>
 				</div>
 			</section>
