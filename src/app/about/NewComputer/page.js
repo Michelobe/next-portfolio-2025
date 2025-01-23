@@ -36,7 +36,7 @@ export default function NewComputer() {
 				<div className="cs-container">
 					<div className="cs-content">
 						<span className="cs-topper">The Build</span>
-						<h2 className="cs-title">Start `{'>'}``{'>'}``{'>'}` Finish</h2>
+						<h2 className="cs-title">Start Finish</h2>
 					</div>
 					<div className="cs-gallery">
 						{/* <!--Picture 1--> */}
