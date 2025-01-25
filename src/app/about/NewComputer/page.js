@@ -14,12 +14,12 @@ export default function NewComputer() {
 					<span className="cs-int-title">My Computer Build</span>
 				</div>
 				{/* <!--Background Image--> */}
-				<picture className="cs-background" aria-hidden="true">
+				<picture className="cs-background"  loading="lazy" aria-hidden="true">
 					{/* <!--Mobile Image--> */}
-					<source media="(max-width: 600px)" srcSet="../../images/computerPage/my-computer-main-banner.jpg" />
+					<source media="(max-width: 600px)" srcSet="/images/computerPage/my-computer-main-banner.jpg" />
 					{/* <!--Tablet and above Image--> */}
-					<source media="(min-width: 601px)" srcSet="../../images/computerPage/my-computer-main-banner.jpg" />
-					<img loading="lazy" decoding="async" src="../../images/computerPage/my-computer-main-banner.jpg" alt="yoga" width="1280" height="568" />
+					<source media="(min-width: 601px)" srcSet="/images/computerPage/my-computer-main-banner.jpg" />
+					<img loading="lazy" decoding="async" src="/images/computerPage/my-computer-main-banner.jpg" alt="yoga" width="1280" height="568" />
 				</picture>
 				{/* <!--Change the svg path fill color to whatever color the section below is so you can match it and create the illusion it is all one piece--> */}
 				<svg className="cs-wave" width="1920" height="179" viewBox="0 0 1920 179" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,33 +41,33 @@ export default function NewComputer() {
 					<div className="cs-gallery">
 						{/* <!--Picture 1--> */}
 						<picture className="cs-image">
-							<source media="(max-width: 600px)" srcSet="../../images/computerPage/gallery-1-dirty-old-computer.jpg" />
-							<source media="(min-width: 601px)" srcSet="../../images/computerPage/gallery-1-dirty-old-computer.jpg" />
-							<img loading="lazy" decoding="async" src="../../images/computerPage/gallery-1-dirty-old-computer.jpg" alt="gallery" width="272" height="320" />
+							<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-1-dirty-old-computer.jpg" />
+							<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-1-dirty-old-computer.jpg" />
+							<img loading="lazy" decoding="async" src="/images/computerPage/gallery-1-dirty-old-computer.jpg" alt="gallery" width="272" height="320" />
 						</picture>
 						{/* <!--Picture 2--> */}
 						<picture className="cs-image">
-							<source media="(max-width: 600px)" srcSet="../../images/computerPage/gallery-2-computer-taken-apart.jpg" />
-							<source media="(min-width: 601px)" srcSet="../../images/computerPage/gallery-2-computer-taken-apart.jpg" />
-							<img loading="lazy" decoding="async" src="../../images/computerPage/gallery-2-computer-taken-apart.jpg" alt="gallery" width="272" height="320" />
+							<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-2-computer-taken-apart.jpg" />
+							<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-2-computer-taken-apart.jpg" />
+							<img loading="lazy" decoding="async" src="/images/computerPage/gallery-2-computer-taken-apart.jpg" alt="gallery" width="272" height="320" />
 						</picture>
 						{/* <!--Picture 3--> */}
 						<picture className="cs-image">
-							<source media="(max-width: 600px)" srcSet="../../images/computerPage/gallery-3-begin-motherboard-install.jpg" />
-							<source media="(min-width: 601px)" srcSet="../../images/computerPage/gallery-3-begin-motherboard-install.jpg" />
-							<img loading="lazy" decoding="async" src="../../images/computerPage/gallery-3-begin-motherboard-install.jpg" alt="gallery" width="272" height="320" />
+							<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-3-begin-motherboard-install.jpg" />
+							<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-3-begin-motherboard-install.jpg" />
+							<img loading="lazy" decoding="async" src="/images/computerPage/gallery-3-begin-motherboard-install.jpg" alt="gallery" width="272" height="320" />
 						</picture>
 						{/* <!--Picture 4--> */}
 						<picture className="cs-image">
-							<source media="(max-width: 600px)" srcSet="../../images/computerPage/gallery-4-graphics-card-comparison.jpg" />
-							<source media="(min-width: 601px)" srcSet="../../images/computerPage/gallery-4-graphics-card-comparison.jpg" />
-							<img loading="lazy" decoding="async" src="../../images/computerPage/gallery-4-graphics-card-comparison.jpg" alt="gallery" width="272" height="320" />
+							<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-4-graphics-card-comparison.jpg" />
+							<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-4-graphics-card-comparison.jpg" />
+							<img loading="lazy" decoding="async" src="/images/computerPage/gallery-4-graphics-card-comparison.jpg" alt="gallery" width="272" height="320" />
 						</picture>
 						{/* <!--Picture 5--> */}
 						<picture className="cs-image">
-							<source media="(max-width: 600px)" srcSet="../../images/computerPage/gallery-5-final-computer-assembly.jpg" />
-							<source media="(min-width: 601px)" srcSet="../../images/computerPage/gallery-5-final-computer-assembly.jpg" />
-							<img loading="lazy" decoding="async" src="../../images/computerPage/gallery-5-final-computer-assembly.jpg" alt="gallery" width="272" height="320" />
+							<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-5-final-computer-assembly.jpg" />
+							<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-5-final-computer-assembly.jpg" />
+							<img loading="lazy" decoding="async" src="/images/computerPage/gallery-5-final-computer-assembly.jpg" alt="gallery" width="272" height="320" />
 						</picture>
 					</div>
 				</div>
@@ -164,13 +164,13 @@ export default function NewComputer() {
 					<div className="cs-image-group">
 						{/* <!--Floating Box--> */}
 						<div className="cs-box">
-							<img className="cs-icon" loading="lazy" decoding="async" src="../../images/computerPage/amd-header-logo.svg" alt="icon" width="521" height="60" aria-hidden="true" />
+							<img className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/amd-header-logo.svg" alt="icon" width="521" height="60" aria-hidden="true" />
 						</div>
 						{/* <!--Big Background Image--> */}
 						<picture className="cs-picture ryzen">
-							<source media="(max-width: 600px)" srcSet="../../images/computerPage/amd-ryzen-7-processor-front-back.jpg" />
-							<source media="(min-width: 601px)" srcSet="../../images/computerPage/amd-ryzen-7-processor-front-back.jpg" />
-							<img loading="lazy" decoding="async" src="../../images/computerPage/amd-ryzen-7-processor-front-back.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<source media="(max-width: 600px)" srcSet="/images/computerPage/amd-ryzen-7-processor-front-back.jpg" />
+							<source media="(min-width: 601px)" srcSet="/images/computerPage/amd-ryzen-7-processor-front-back.jpg" />
+							<img loading="lazy" decoding="async" src="/images/computerPage/amd-ryzen-7-processor-front-back.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
 						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
@@ -239,13 +239,13 @@ export default function NewComputer() {
 					<div className="cs-image-group">
 						{/* <!--Floating Box--> */}
 						<div className="cs-box">
-							<img className="cs-icon" loading="lazy" decoding="async" src="../../images/computerPage/republic-of-gamers-logo-thumbnail-v2.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
+							<img className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/republic-of-gamers-logo-thumbnail-v2.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
 						</div>
 						{/* <!--Big Background Image--> */}
 						<picture className="cs-picture">
-							<source media="(max-width: 600px)" srcSet="../../images/computerPage/rog-strix-b450-f-kgaming-motherboard.jpg" />
-							<source media="(min-width: 601px)" srcSet="../../images/computerPage/rog-strix-b450-f-kgaming-motherboard.jpg" />
-							<img loading="lazy" decoding="async" src="../../images/computerPage/rog-strix-b450-f-kgaming-motherboard.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<source media="(max-width: 600px)" srcSet="/images/computerPage/rog-strix-b450-f-kgaming-motherboard.jpg" />
+							<source media="(min-width: 601px)" srcSet="/images/computerPage/rog-strix-b450-f-kgaming-motherboard.jpg" />
+							<img loading="lazy" decoding="async" src="/images/computerPage/rog-strix-b450-f-kgaming-motherboard.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
 						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
@@ -326,13 +326,13 @@ export default function NewComputer() {
 					<div className="cs-image-group">
 						{/* <!--Floating Box--> */}
 						<div className="cs-box">
-							<img className="cs-icon" loading="lazy" decoding="async" src="../../images/computerPage/amd-header-logo.svg" alt="icon" width="521" height="60" aria-hidden="true" />
+							<img className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/amd-header-logo.svg" alt="icon" width="521" height="60" aria-hidden="true" />
 						</div>
 						{/* <!--Big Background Image--> */}
 						<picture className="cs-picture ryzen">
-							<source media="(max-width: 600px)" srcSet="../../images/computerPage/computer-ram-four-sticks.jpg" />
-							<source media="(min-width: 601px)" srcSet="../../images/computerPage/computer-ram-four-sticks.jpg" />
-							<img loading="lazy" decoding="async" src="../../images/computerPage/computer-ram-four-sticks.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<source media="(max-width: 600px)" srcSet="/images/computerPage/computer-ram-four-sticks.jpg" />
+							<source media="(min-width: 601px)" srcSet="/images/computerPage/computer-ram-four-sticks.jpg" />
+							<img loading="lazy" decoding="async" src="/images/computerPage/computer-ram-four-sticks.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
 						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
@@ -402,13 +402,13 @@ export default function NewComputer() {
 					<div className="cs-image-group">
 						{/* <!--Floating Box--> */}
 						<div className="cs-box">
-							<img className="cs-icon" loading="lazy" decoding="async" src="../../images/computerPage/intel-arc-logo.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
+							<img className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/intel-arc-logo.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
 						</div>
 						{/* <!--Big Background Image--> */}
 						<picture className="cs-picture">
-							<source media="(max-width: 600px)" srcSet="../../images/computerPage/asrock-intel-arc-a770-phantom-gaming-16gb-oc-side-angle.jpg" />
-							<source media="(min-width: 601px)" srcSet="../../images/computerPage/asrock-intel-arc-a770-phantom-gaming-16gb-oc-side-angle.jpg" />
-							<img loading="lazy" decoding="async" src="../../images/computerPage/asrock-intel-arc-a770-phantom-gaming-16gb-oc-side-angle.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<source media="(max-width: 600px)" srcSet="/images/computerPage/asrock-intel-arc-a770-phantom-gaming-16gb-oc-side-angle.jpg" />
+							<source media="(min-width: 601px)" srcSet="/images/computerPage/asrock-intel-arc-a770-phantom-gaming-16gb-oc-side-angle.jpg" />
+							<img loading="lazy" decoding="async" src="/images/computerPage/asrock-intel-arc-a770-phantom-gaming-16gb-oc-side-angle.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
 						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
@@ -502,13 +502,13 @@ export default function NewComputer() {
 					<div className="cs-image-group">
 						{/* <!--Floating Box--> */}
 						<div className="cs-box">
-							<img className="cs-icon" loading="lazy" decoding="async" src="../../images/computerPage/samsung-logo.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
+							<img className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/samsung-logo.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
 						</div>
 						{/* <!--Big Background Image--> */}
 						<picture className="cs-picture ryzen">
-							<source media="(max-width: 600px)" srcSet="../../images/computerPage/samsung-990evo-2tb-ssd.jpg" />
-							<source media="(min-width: 601px)" srcSet="../../images/computerPage/samsung-990evo-2tb-ssd.jpg" />
-							<img loading="lazy" decoding="async" src="../../images/computerPage/samsung-990evo-2tb-ssd.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<source media="(max-width: 600px)" srcSet="/images/computerPage/samsung-990evo-2tb-ssd.jpg" />
+							<source media="(min-width: 601px)" srcSet="/images/computerPage/samsung-990evo-2tb-ssd.jpg" />
+							<img loading="lazy" decoding="async" src="/images/computerPage/samsung-990evo-2tb-ssd.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
 						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
@@ -583,9 +583,9 @@ export default function NewComputer() {
 					<div className="cs-image-group">
 						{/* <!--Big Background Image--> */}
 						<picture className="cs-picture">
-							<source media="(max-width: 600px)" srcSet="../../images/computerPage/powerspec-750w-power-supply-unit-with-box.jpg" />
-							<source media="(min-width: 601px)" srcSet="../../images/computerPage/powerspec-750w-power-supply-unit-with-box.jpg" />
-							<img loading="lazy" decoding="async" src="../../images/computerPage/powerspec-750w-power-supply-unit-with-box.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<source media="(max-width: 600px)" srcSet="/images/computerPage/powerspec-750w-power-supply-unit-with-box.jpg" />
+							<source media="(min-width: 601px)" srcSet="/images/computerPage/powerspec-750w-power-supply-unit-with-box.jpg" />
+							<img loading="lazy" decoding="async" src="/images/computerPage/powerspec-750w-power-supply-unit-with-box.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
 						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
@@ -660,13 +660,13 @@ export default function NewComputer() {
 					<div className="cs-image-group">
 						{/* <!--Floating Box--> */}
 						<div className="cs-box">
-							<img className="cs-icon" loading="lazy" decoding="async" src="../../images/computerPage/samsung-logo.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
+							<img className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/bequietgroot.jpg" alt="icon" width="250" height="250" aria-hidden="true" />
 						</div>
 						{/* <!--Big Background Image--> */}
 						<picture className="cs-picture ryzen">
-							<source media="(max-width: 600px)" srcSet="../../images/computerPage/samsung-990evo-2tb-ssd.jpg" />
-							<source media="(min-width: 601px)" srcSet="../../images/computerPage/samsung-990evo-2tb-ssd.jpg" />
-							<img loading="lazy" decoding="async" src="../../images/computerPage/samsung-990evo-2tb-ssd.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<source media="(max-width: 600px)" srcSet="/images/computerPage/Pure-Rock-Slim-2-Heroshot.jpg" />
+							<source media="(min-width: 601px)" srcSet="/images/computerPage/Pure-Rock-Slim-2-Heroshot.jpg" />
+							<img loading="lazy" decoding="async" src="/images/computerPage/Pure-Rock-Slim-2-Heroshot.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
 						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
@@ -675,154 +675,59 @@ export default function NewComputer() {
 					<div className="cs-content">
 						<span className="cs-topper">Cooling System</span>
 						<h2 className="cs-title">Be Quiet Pure Rock Slim 2</h2>
-						<p className="cs-text">When I upgraded to the 2TB Samsung 990 EVO SSD, it felt like stepping into the future. My old 1TB HDD served me well, but it was like relying on an old bicycle when I could have been driving a race car. The SSD is blazing fast, loading everything in seconds, while the HDD used to take its time, with its spinning platters and clicking noises. The best part? No more waiting around for things to load or dealing with the occasional lag—this SSD makes everything silent, smooth, and lightning-fast. It’s more durable, energy-efficient, and has double the storage, which is a game-changer for my upgraded system. The HDD is still handy for backups, but for everyday performance, the SSD blows it out of the water.</p>
-				<table className="cs-table">
-					<thead>
-					<tr className="cs-color">
-					<th className="cs-th">Specification</th>
-					<th className="cs-th">2TB Samsung 990 EVO SSD</th>
-					<th className="cs-th">1TB HDD</th>
-					</tr>
-					</thead>
-					<tbody>
-					<tr className="cs-tr">
-					<td className="cs-td"><strong>Type</strong></td>
-					<td className="cs-td">Solid State Drive (SSD)</td>
-					<td className="cs-td">Hard Disk Drive (HDD)</td>
-					</tr>
-					<tr className="cs-tr">
-					<td className="cs-td"><strong>Storage Capacity</strong></td>
-					<td className="cs-td">2TB</td>
-					<td className="cs-td">1TB</td>
-					</tr>
-					<tr className="cs-tr">
-					<td className="cs-td"><strong>Read Speed</strong></td>
-					<td className="cs-td">Up to 7,450 MB/s</td>
-					<td className="cs-td">80–160 MB/s</td>
-					</tr>
-					<tr className="cs-tr">
-					<td className="cs-td"><strong>Write Speed</strong></td>
-					<td className="cs-td">Up to 6,900 MB/s</td>
-					<td className="cs-td">80–160 MB/s</td>
-					</tr>
-					<tr className="cs-tr">
-					<td className="cs-td"><strong>Access Time</strong></td>
-					<td className="cs-td">Virtually instantaneous</td>
-					<td className="cs-td">Slower, due to mechanical parts</td>
-					</tr>
-					<tr className="cs-tr">
-					<td className="cs-td"><strong>Durability</strong></td>
-					<td className="cs-td">No moving parts, shock-resistant</td>
-					<td className="cs-td">Susceptible to damage from movement</td>
-					</tr>
-					<tr className="cs-tr">
-					<td className="cs-td"><strong>Form Factor</strong></td>
-					<td className="cs-td">Compact M.2 NVMe</td>
-					<td className="cs-td">Larger (2.5&quot; or 3.5&quot;)</td>
-					</tr>
-					</tbody>
-				</table>
-							
-						
-						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="#">Learn More</a> --> */}
-					</div>
-				</div>
-			</section>
-
-
-
-			{/* <!-- ============================================ -->
-			<!--                 Side By Side                 -->
-			<!-- ================ https://www.codestitch.app/app/dashboard/stitches/1219 ================= --> */}
-
-			<section id="RTsbs-1219-graph">
-				<div className="cs-container">
-					{/* <!-- Left Image Section --> */}
-					<div className="cs-image-group">
-						{/* <!--Floating Box--> */}
-						<div className="cs-box">
-							<img className="cs-icon" loading="lazy" decoding="async" src="../../images/computerPage/bequietgroot.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
-						</div>
-						{/* <!--Big Background Image--> */}
-						<picture className="cs-picture">
-							<source media="(max-width: 600px)" srcSet="../../images/computerPage/Pure-Rock-Slim-2-Heroshot.jpg" />
-							<source media="(min-width: 601px)" srcSet="../../images/computerPage/Pure-Rock-Slim-2-Heroshot.jpg" />
-							<img loading="lazy" decoding="async" src="../../images/computerPage/Pure-Rock-Slim-2-Heroshot.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
-						</picture>
-						{/* <!--Swirl--> */}
-						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
-					</div>
-					{/* <!-- Right Content Section--> */}
-					<div className="cs-content">
-						<span className="cs-topper">Cooling System</span>
-						<h2 className="cs-title">Be Quiet Pure Rock Slim 2</h2>
-						<p className="cs-text">I upgraded from the Radeon RX 580 Armor 4G to the Intel ARC A770 Phantom OC 16GB for a significant boost in performance and features. The A770 offers 16GB of GDDR6 memory, advanced ray tracing support, and AV1 encoding, making it ideal for 1440p gaming and modern workflows. In comparison, the RX 580, with its 4GB of GDDR5 memory and older Polaris architecture, was sufficient for 1080p gaming and less demanding tasks but lacked the power and features to handle today’s requirements. The upgrade has greatly improved my system’s capability for gaming and creative tasks.</p>
+						<p className="cs-text">So, I just upgraded to the Be Quiet! Pure Rock Slim 2 from the Intel E97379-002 stock cooler, and the difference is night and day. The Be Quiet fan is so much better—it’s got heat pipes for better heat dissipation, handles way more heat with its 130W TDP, and runs almost silently. Meanwhile, the Intel stock cooler was fine for basic use, but it could barely keep up under load, got noisy, and wasn’t really meant for anything beyond light tasks. The upgrade was totally worth it for better performance and peace of mind.</p>
 						<table className="cs-table">
 							<thead>
-							<tr className="cs-color">
-								<th className="cs-th">Feature</th>
-								<th className="cs-th">Intel ARC A770 Phantom OC 16GB</th>
-								<th className="cs-th">Radeon RX 580 Armor 4G</th>
-							</tr>
+								<tr className="cs-color">
+								<th className="cs-th">Specification</th>
+								<th className="cs-th">Be Quiet! Pure Rock Slim 2</th>
+								<th className="cs-th">Intel E97379-002</th>
+								</tr>
 							</thead>
 							<tbody>
-							<tr className="cs-tr">
-								<td className="cs-td">Release Year</td>
-								<td className="cs-td">2022</td>
-								<td className="cs-td">2017</td>
-							</tr>
-							<tr className="cs-tr">
-								<td className="cs-td">Architecture</td>
-								<td className="cs-td">Xe-HPG (Alchemist)</td>
-								<td className="cs-td">Polaris (GCN)</td>
-							</tr>
-							<tr className="cs-tr">
-								<td className="cs-td">VRAM</td>
-								<td className="cs-td">16GB GDDR6</td>
-								<td className="cs-td">4GB GDDR5</td>
-							</tr>
-							<tr className="cs-tr">
-								<td className="cs-td">Memory Bandwidth</td>
-								<td className="cs-td">560 GB/s</td>
-								<td className="cs-td">~256 GB/s</td>
-							</tr>
-							<tr className="cs-tr">
-								<td className="cs-td">Ray Tracing</td>
-								<td className="cs-td">Supported</td>
-								<td className="cs-td">Not Supported</td>
-							</tr>
-							<tr className="cs-tr">
-								<td className="cs-td">AV1 Encoding</td>
-								<td className="cs-td">Supported</td>
-								<td className="cs-td">Not Supported</td>
-							</tr>
-							<tr className="cs-tr">
-								<td className="cs-td">Core Count</td>
-								<td className="cs-td">4096 Xe Cores</td>
-								<td className="cs-td">2304 Stream Processors</td>
-							</tr>
-							<tr className="cs-tr">
-								<td className="cs-td">Clock Speed (Boost)</td>
-								<td className="cs-td">~2400 MHz</td>
-								<td className="cs-td">~1366 MHz</td>
-							</tr>
-							<tr className="cs-tr">
-								<td className="cs-td">TDP (Power Draw)</td>
-								<td className="cs-td">225W</td>
-								<td className="cs-td">185W</td>
-							</tr>
-							<tr className="cs-tr">
-								<td className="cs-td">Recommended PSU</td>
-								<td className="cs-td">650W+</td>
-								<td className="cs-td">500W+</td>
-							</tr>
-							<tr className="cs-tr">
-								<td className="cs-td">Target Resolution</td>
-								<td className="cs-td">1440p, decent for 4K</td>
-								<td className="cs-td">1080p</td>
-							</tr>
+								<tr className="cs-tr">
+								<td className="cs-td"><strong>Type</strong></td>
+								<td className="cs-td">Aftermarket CPU Cooler</td>
+								<td className="cs-td">Stock CPU Cooler</td>
+								</tr>
+								<tr className="cs-tr">
+								<td className="cs-td"><strong>Cooling Capacity (TDP)</strong></td>
+								<td className="cs-td">130W</td>
+								<td className="cs-td">65W</td>
+								</tr>
+								<tr className="cs-tr">
+								<td className="cs-td"><strong>Design</strong></td>
+								<td className="cs-td">Tower-style with 3 heat pipes</td>
+								<td className="cs-td">Simple aluminum heatsink</td>
+								</tr>
+								<tr className="cs-tr">
+								<td className="cs-td"><strong>Fan Size</strong></td>
+								<td className="cs-td">92mm</td>
+								<td className="cs-td">80mm</td>
+								</tr>
+								<tr className="cs-tr">
+								<td className="cs-td"><strong>Noise Levels</strong></td>
+								<td className="cs-td">Very quiet, optimized fan</td>
+								<td className="cs-td">Noisy under load</td>
+								</tr>
+								<tr className="cs-tr">
+								<td className="cs-td"><strong>Performance</strong></td>
+								<td className="cs-td">Great for mid-range to lightly overclocked CPUs</td>
+								<td className="cs-td">Sufficient for light workloads and entry-level CPUs</td>
+								</tr>
+								<tr className="cs-tr">
+								<td className="cs-td"><strong>Build Quality</strong></td>
+								<td className="cs-td">Premium</td>
+								<td className="cs-td">Basic</td>
+								</tr>
+								<tr className="cs-tr">
+								<td className="cs-td"><strong>Compatibility</strong></td>
+								<td className="cs-td">Supports Intel (LGA 1700/1200/115x) and AMD (AM4)</td>
+								<td className="cs-td">Limited to Intel LGA 115x sockets</td>
+								</tr>
 							</tbody>
-						</table>              
+							</table>
+
 						
 						{/* <!-- <a className="cs-button-solid" aria-label="learn more about our programs" href="#">Learn More</a> --> */}
 					</div>

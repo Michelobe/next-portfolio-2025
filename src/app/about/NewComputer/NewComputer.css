@@ -582,7 +582,7 @@
         text-align: center;
         width: auto;
         /* 16px - 40px */
-        padding: clamp(1rem, 3vw, 2.5rem);
+        /* padding: clamp(1rem, 3vw, 2.5rem); */
         background-color: #1a1a1a;
         display: inline-flex;
         justify-content: center;

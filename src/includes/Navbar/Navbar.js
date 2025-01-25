@@ -34,7 +34,7 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li className="cs-li">
-                            <Link href="/" className="cs-li-link">
+                            <Link href="/about/MyBuild" className="cs-li-link">
                                 About
                             </Link>
                         </li>
