@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import './Footer.css';
 
 export default function Footer() {
@@ -15,19 +16,19 @@ export default function Footer() {
                     </a>
                     <ul className="cs-ul">
                         <li className="cs-li">
-                            <a href="#" className="cs-link">Home</a>
+                            <Link href="/" className="cs-link">Home</Link>
                         </li>
                         <li className="cs-li">
-                            <a href="#" className="cs-link">About</a>
+                            <Link href="/" className="cs-link">About</Link>
                         </li>
                         <li className="cs-li">
-                            <a href="#" className="cs-link">Services</a>
+                            <Link href="/" className="cs-link">Services</Link>
                         </li>
                         <li className="cs-li">
-                            <a href="#" className="cs-link">Blog</a>
+                            <Link href="/" className="cs-link">Blog</Link>
                         </li>
                         <li className="cs-li">
-                            <a href="#" className="cs-link">Contact</a>
+                            <Link href="/" className="cs-link">Contact</Link>
                         </li>
                     </ul>
                 </div>
@@ -35,33 +36,33 @@ export default function Footer() {
                     {/* <!--Social--> */}
                     <ul className="cs-social">
                         <li className="cs-social-li">
-                            <a href="#" className="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
+                            <Link href="/" className="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
                                 <img className="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true" />
-                            </a>
+                            </Link>
                         </li>
                         <li className="cs-social-li">
-                            <a href="#" className="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
+                            <Link href="/" className="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
                                 <img className="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true" />
-                            </a>
+                            </Link>
                         </li>
                         <li className="cs-social-li">
-                            <a href="#" className="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
+                            <Link href="/" className="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
                                 <img className="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true" />
-                            </a>
+                            </Link>
                         </li>
                         <li className="cs-social-li">
-                            <a href="#" className="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
+                            <Link href="/" className="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
                                 <img className="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-ba.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true" />
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                     <span className="cs-copyright">
-                        © Copyright 2023 - <a href="#" className="cs-copyright-link">Stitch Agency</a>
+                        © Copyright 2023 - <Link href="/" className="cs-copyright-link">Stitch Agency</Link>
                     </span>
                     <div className="cs-flex">
-                        <a href="#" className="cs-copyright-link">Privacy Policy</a>
+                        <Link href="/" className="cs-copyright-link">Privacy Policy</Link>
                         <span className="cs-separater">|</span>
-                        <a href="#" className="cs-copyright-link">Terms of Use</a>
+                        <Link href="/" className="cs-copyright-link">Terms of Use</Link>
                     </div>
                 </div>
             </div>

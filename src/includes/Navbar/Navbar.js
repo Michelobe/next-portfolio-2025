@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -11,9 +12,9 @@ export default function Navbar() {
     <!-- ==================== https://www.codestitch.app/app/dashboard/stitches/758?nav=Top%20Dropdown ================ --> */}
         <div className="cs-container">
             {/* <!--Nav Logo--> */}
-            <a href="#" className="cs-logo" aria-label="back to home">
+            <Link href="/" className="cs-logo" aria-label="back to home">
                 <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Flogo-black.svg" alt="logo" width="210" height="29" aria-hidden="true" decoding="async" />
-            </a>
+            </Link>
             {/* <!--Navigation List--> */}
             <nav className="cs-nav" role="navigation">
                 {/* <!--Mobile Nav Toggle--> */}
@@ -28,24 +29,24 @@ export default function Navbar() {
                 <div className="cs-ul-wrapper">
                     <ul id="cs-expanded" className="cs-ul" aria-expanded="false">
                         <li className="cs-li">
-                            <a href="#" className="cs-li-link cs-active">
+                            <Link href="/" className="cs-li-link cs-active">
                                 Home
-                            </a>
+                            </Link>
                         </li>
                         <li className="cs-li">
-                            <a href="#" className="cs-li-link">
+                            <Link href="/" className="cs-li-link">
                                 About
-                            </a>
+                            </Link>
                         </li>
                         <li className="cs-li">
-                            <a href="#" className="cs-li-link">
+                            <Link href="/" className="cs-li-link">
                                 Technologies/Tools
-                            </a>
+                            </Link>
                         </li>
                         <li className="cs-li">
-                            <a href="#" className="cs-li-link">
+                            <Link href="/" className="cs-li-link">
                                 Projects
-                            </a>
+                            </Link>
                         </li>
                         {/* <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work--> */}
                         <li className="cs-li cs-dropdown" tabndex="0">
@@ -55,34 +56,34 @@ export default function Navbar() {
                             </span>
                             <ul className="cs-drop-ul">
                                 <li className="cs-drop-li">
-                                    <a href="#" className="cs-li-link cs-drop-link">Web Dev/SEO</a>
+                                    <Link href="/" className="cs-li-link cs-drop-link">Web Dev/SEO</Link>
                                 </li>
                                 <li className="cs-drop-li">
-                                    <a href="#" className="cs-li-link cs-drop-link">Computers</a>
+                                    <Link href="/about/NewComputer" className="cs-li-link cs-drop-link">Computers</Link>
                                 </li>
                                 <li className="cs-drop-li">
-                                    <a href="#" className="cs-li-link cs-drop-link">Helpful Tools</a>
+                                    <Link href="/" className="cs-li-link cs-drop-link">Helpful Tools</Link>
                                 </li>
                                 <li className="cs-drop-li">
-                                    <a href="#" className="cs-li-link cs-drop-link">Games</a>
+                                    <Link href="/" className="cs-li-link cs-drop-link">Games</Link>
                                 </li>
                                 <li className="cs-drop-li">
-                                    <a href="#" className="cs-li-link cs-drop-link">Music</a>
+                                    <Link href="/" className="cs-li-link cs-drop-link">Music</Link>
                                 </li>
                                 <li className="cs-drop-li">
-                                    <a href="#" className="cs-li-link cs-drop-link">Tirezapetide</a>
+                                    <Link href="/" className="cs-li-link cs-drop-link">Tirezapetide</Link>
                                 </li>
                             </ul>
                         </li>
                         <li className="cs-li">
-                            <a href="#" className="cs-li-link">
+                            <Link href="/" className="cs-li-link">
                                 FAQ
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
             </nav>
-            <a href="#" className="cs-button-solid cs-nav-button">Contact Us</a>
+            <Link href="/" className="cs-button-solid cs-nav-button">Contact Us</Link>
 
         </div>
     </header>
