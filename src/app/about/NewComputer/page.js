@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import './NewComputer.css';
 
 export default function NewComputer() {
@@ -40,35 +41,45 @@ export default function NewComputer() {
 					</div>
 					<div className="cs-gallery">
 						{/* <!--Picture 1--> */}
-						<picture className="cs-image">
-							<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-1-dirty-old-computer.jpg" />
-							<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-1-dirty-old-computer.jpg" />
-							<img loading="lazy" decoding="async" src="/images/computerPage/gallery-1-dirty-old-computer.jpg" alt="gallery" width="272" height="320" />
-						</picture>
+						<Link href="/about/NewComputer/MyBuild">
+							<picture className="cs-image">
+								<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-1-dirty-old-computer.jpg" />
+								<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-1-dirty-old-computer.jpg" />
+								<img loading="lazy" decoding="async" src="/images/computerPage/gallery-1-dirty-old-computer.jpg" alt="gallery" width="272" height="320" />
+							</picture>
+						</Link>
 						{/* <!--Picture 2--> */}
-						<picture className="cs-image">
-							<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-2-computer-taken-apart.jpg" />
-							<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-2-computer-taken-apart.jpg" />
-							<img loading="lazy" decoding="async" src="/images/computerPage/gallery-2-computer-taken-apart.jpg" alt="gallery" width="272" height="320" />
-						</picture>
+						<Link href="/about/NewComputer/MyBuild">
+							<picture className="cs-image">
+								<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-2-computer-taken-apart.jpg" />
+								<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-2-computer-taken-apart.jpg" />
+								<img loading="lazy" decoding="async" src="/images/computerPage/gallery-2-computer-taken-apart.jpg" alt="gallery" width="272" height="320" />
+							</picture>
+						</Link>
 						{/* <!--Picture 3--> */}
-						<picture className="cs-image">
-							<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-3-begin-motherboard-install.jpg" />
-							<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-3-begin-motherboard-install.jpg" />
-							<img loading="lazy" decoding="async" src="/images/computerPage/gallery-3-begin-motherboard-install.jpg" alt="gallery" width="272" height="320" />
-						</picture>
+						<Link href="/about/NewComputer/MyBuild">
+							<picture className="cs-image">
+								<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-3-begin-motherboard-install.jpg" />
+								<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-3-begin-motherboard-install.jpg" />
+								<img loading="lazy" decoding="async" src="/images/computerPage/gallery-3-begin-motherboard-install.jpg" alt="gallery" width="272" height="320" />
+							</picture>
+						</Link>
 						{/* <!--Picture 4--> */}
-						<picture className="cs-image">
-							<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-4-graphics-card-comparison.jpg" />
-							<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-4-graphics-card-comparison.jpg" />
-							<img loading="lazy" decoding="async" src="/images/computerPage/gallery-4-graphics-card-comparison.jpg" alt="gallery" width="272" height="320" />
-						</picture>
+						<Link href="/about/NewComputer/MyBuild">
+							<picture className="cs-image">
+								<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-4-graphics-card-comparison.jpg" />
+								<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-4-graphics-card-comparison.jpg" />
+								<img loading="lazy" decoding="async" src="/images/computerPage/gallery-4-graphics-card-comparison.jpg" alt="gallery" width="272" height="320" />
+							</picture>
+						</Link>
 						{/* <!--Picture 5--> */}
-						<picture className="cs-image">
-							<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-5-final-computer-assembly.jpg" />
-							<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-5-final-computer-assembly.jpg" />
-							<img loading="lazy" decoding="async" src="/images/computerPage/gallery-5-final-computer-assembly.jpg" alt="gallery" width="272" height="320" />
-						</picture>
+						<Link href="/about/NewComputer/MyBuild">
+							<picture className="cs-image">
+								<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-5-final-computer-assembly.jpg" />
+								<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-5-final-computer-assembly.jpg" />
+								<img loading="lazy" decoding="async" src="/images/computerPage/gallery-5-final-computer-assembly.jpg" alt="gallery" width="272" height="320" />
+							</picture>
+						</Link>
 					</div>
 				</div>
 			</section>
