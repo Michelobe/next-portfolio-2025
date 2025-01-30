@@ -29,60 +29,61 @@ export default function NewComputer() {
 			</div>
 
 
-			{/* <!-- ============================================ -->
-			<!--                   Gallery                    -->
-			<!-- ================== https://www.codestitch.app/app/dashboard/stitches/1152 ================= --> */}
+			{/* ============================================ */}
+			{/*                   Gallery                    */}
+			{/* ============================================ */}
 
 			<section id="gallery-1152">
-				<div className="cs-container">
-					<div className="cs-content">
-						<span className="cs-topper">The Build</span>
-						<h2 className="cs-title">Start Finish</h2>
-					</div>
-					<div className="cs-gallery">
-						{/* <!--Picture 1--> */}
-						<Link href="/about/NewComputer/MyBuild">
-							<picture className="cs-image">
-								<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-1-dirty-old-computer.jpg" />
-								<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-1-dirty-old-computer.jpg" />
-								<img loading="lazy" decoding="async" src="/images/computerPage/gallery-1-dirty-old-computer.jpg" alt="gallery" width="272" height="320" />
-							</picture>
-						</Link>
-						{/* <!--Picture 2--> */}
-						<Link href="/about/NewComputer/MyBuild">
-							<picture className="cs-image">
-								<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-2-computer-taken-apart.jpg" />
-								<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-2-computer-taken-apart.jpg" />
-								<img loading="lazy" decoding="async" src="/images/computerPage/gallery-2-computer-taken-apart.jpg" alt="gallery" width="272" height="320" />
-							</picture>
-						</Link>
-						{/* <!--Picture 3--> */}
-						<Link href="/about/NewComputer/MyBuild">
-							<picture className="cs-image">
-								<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-3-begin-motherboard-install.jpg" />
-								<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-3-begin-motherboard-install.jpg" />
-								<img loading="lazy" decoding="async" src="/images/computerPage/gallery-3-begin-motherboard-install.jpg" alt="gallery" width="272" height="320" />
-							</picture>
-						</Link>
-						{/* <!--Picture 4--> */}
-						<Link href="/about/NewComputer/MyBuild">
-							<picture className="cs-image">
-								<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-4-graphics-card-comparison.jpg" />
-								<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-4-graphics-card-comparison.jpg" />
-								<img loading="lazy" decoding="async" src="/images/computerPage/gallery-4-graphics-card-comparison.jpg" alt="gallery" width="272" height="320" />
-							</picture>
-						</Link>
-						{/* <!--Picture 5--> */}
-						<Link href="/about/NewComputer/MyBuild">
-							<picture className="cs-image">
-								<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-5-final-computer-assembly.jpg" />
-								<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-5-final-computer-assembly.jpg" />
-								<img loading="lazy" decoding="async" src="/images/computerPage/gallery-5-final-computer-assembly.jpg" alt="gallery" width="272" height="320" />
-							</picture>
-						</Link>
-					</div>
+			<div className="cs-container">
+				<div className="cs-content">
+				<span className="cs-topper">The Build</span>
+				<h2 className="cs-title">Start Finish</h2>
 				</div>
+				<div className="cs-gallery">
+				{/* Picture 1 */}
+				<Link href="/about/NewComputer/MyBuild" className="cs-image">
+					<picture>
+					<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-1-dirty-old-computer.jpg" />
+					<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-1-dirty-old-computer.jpg" />
+					<img loading="lazy" decoding="async" src="/images/computerPage/gallery-1-dirty-old-computer.jpg" alt="gallery" width="272" height="320" />
+					</picture>
+				</Link>
+				{/* Picture 2 */}
+				<Link href="/about/NewComputer/MyBuild" className="cs-image">
+					<picture>
+					<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-2-computer-taken-apart.jpg" />
+					<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-2-computer-taken-apart.jpg" />
+					<img loading="lazy" decoding="async" src="/images/computerPage/gallery-2-computer-taken-apart.jpg" alt="gallery" width="272" height="320" />
+					</picture>
+				</Link>
+				{/* Picture 3 */}
+				<Link href="/about/NewComputer/MyBuild" className="cs-image">
+					<picture>
+					<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-3-begin-motherboard-install.jpg" />
+					<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-3-begin-motherboard-install.jpg" />
+					<img loading="lazy" decoding="async" src="/images/computerPage/gallery-3-begin-motherboard-install.jpg" alt="gallery" width="272" height="320" />
+					</picture>
+				</Link>
+				{/* Picture 4 */}
+				<Link href="/about/NewComputer/MyBuild" className="cs-image">
+					<picture>
+					<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-4-graphics-card-comparison.jpg" />
+					<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-4-graphics-card-comparison.jpg" />
+					<img loading="lazy" decoding="async" src="/images/computerPage/gallery-4-graphics-card-comparison.jpg" alt="gallery" width="272" height="320" />
+					</picture>
+				</Link>
+				{/* Picture 5 */}
+				<Link href="/about/NewComputer/MyBuild" className="cs-image">
+					<picture>
+					<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-5-final-computer-assembly.jpg" />
+					<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-5-final-computer-assembly.jpg" />
+					<img loading="lazy" decoding="async" src="/images/computerPage/gallery-5-final-computer-assembly.jpg" alt="gallery" width="272" height="320" />
+					</picture>
+				</Link>
+				</div>
+			</div>
 			</section>
+
 											
 
 
