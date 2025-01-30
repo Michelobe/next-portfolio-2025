@@ -100,7 +100,7 @@
     #gallery-1152 .cs-container {
         width: 100%;
         /* changes to 1280px at large desktop */
-        max-width: 59rem;
+        /* max-width: 59rem; */
         margin: auto;
         display: flex;
         flex-direction: column;
