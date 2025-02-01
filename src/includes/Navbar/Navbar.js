@@ -121,7 +121,7 @@ export default function Navbar() {
 								</span>
 								<ul className="cs-drop-ul">
 									<li className="cs-drop-li">
-										<Link href="/" className="cs-li-link cs-drop-link">
+										<Link href="/blog/GoogleSearchRanking" className="cs-li-link cs-drop-link">
 											Web Dev/SEO
 										</Link>
 									</li>
