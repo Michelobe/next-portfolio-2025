@@ -27,7 +27,7 @@ export default function GoogleSearchRanking() {
 
             Over weeks of detailed work, I have viewed, analyzed, structured, discarded and restructured almost 100 documents many times. 
 
-            This article is not intended to be exhaustive or strictly accurate. It represents my best effort, to the best of my knowledge and belief, and a bit of Inspector Columbo’s investigative spirit. The result is what you see here.</p>
+            This article is not intended to be exhaustive or strictly accurate. It represents my best effort, to the best of my knowledge and belief, and a bit of Inspector Columbos investigative spirit. The result is what you see here.</p>
 
             <figure>
                 <img src="/images/blog/GoogleRanking/A-graphical-overview-of-how-Google-ranking-works.jpg" />
