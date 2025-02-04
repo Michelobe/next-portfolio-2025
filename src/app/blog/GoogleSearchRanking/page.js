@@ -1,16 +1,14 @@
 "use client";
 
+import Image from 'next/image';
 import './GoogleSearchRanking.css';
 
 export default function GoogleSearchRanking() {
     return (
 		<div className="googleRank_container">
             
-
-
-
             <h1>How Google Search ranking works</h1>
-            <h4>An in-depth analysis of how Google's complex ranking system works and components like Twiddlers and NavBoost that influence search results.</h4>
+            <h4>An in-depth analysis of how Googles complex ranking system works and components like Twiddlers and NavBoost that influence search results.</h4>
             <h6>Mario Fischer on August 13, 2024 at 9:00 am | Reading time: 31 minutes</h6>
             
             <p>It should be clear to everyone that the Google documentation leak and the public documents from antitrust hearings do not really tell us exactly how the rankings work. 
@@ -30,7 +28,7 @@ export default function GoogleSearchRanking() {
             This article is not intended to be exhaustive or strictly accurate. It represents my best effort, to the best of my knowledge and belief, and a bit of Inspector Columbos investigative spirit. The result is what you see here.</p>
 
             <figure>
-                <img src="/images/blog/GoogleRanking/A-graphical-overview-of-how-Google-ranking-works.jpg" />
+                <Image src="/images/blog/GoogleRanking/A-graphical-overview-of-how-Google-ranking-works.jpg" width="640" height="369" />
                 <figcaption>A graphical overview of how Google ranking works, created by the author</figcaption>
             </figure>
 

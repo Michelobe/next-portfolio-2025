@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect } from "react";
+import Image from 'next/image';
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -67,7 +68,7 @@ export default function Navbar() {
 		<header id="cs-navigation">
 			<div className="cs-container">
 				<Link href="/" className="cs-logo" aria-label="back to home">
-					<img
+					<Image
 						src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Flogo-black.svg"
 						alt="logo"
 						width="210"
@@ -109,7 +110,7 @@ export default function Navbar() {
 							<li className="cs-li cs-dropdown" tabIndex="0">
 								<span className="cs-li-link">
 									Tech Blogs
-									<img
+									<Image
 										className="cs-drop-icon"
 										src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fdown.svg"
 										alt="dropdown icon"
