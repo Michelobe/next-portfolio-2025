@@ -3,6 +3,19 @@
     margin: 7rem auto 0 auto;
 }
 
+.googleRank_container h1,
+.googleRank_container h6{
+    margin-bottom: 1rem;
+}
+
+.googleRank_container h2{
+    margin-bottom: .25rem;
+}
+
+.googleRank_container p{
+    margin-bottom: 1rem;
+}
+
 .googleRank_container img{
     max-width: 100%;
 }
