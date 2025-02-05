@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from 'next/image';
 import './NewComputer.css';
 
 export default function NewComputer() {
@@ -20,7 +21,7 @@ export default function NewComputer() {
 					<source media="(max-width: 600px)" srcSet="/images/computerPage/my-computer-main-banner.jpg" />
 					{/* <!--Tablet and above Image--> */}
 					<source media="(min-width: 601px)" srcSet="/images/computerPage/my-computer-main-banner.jpg" />
-					<img loading="lazy" decoding="async" src="/images/computerPage/my-computer-main-banner.jpg" alt="yoga" width="1280" height="568" />
+					<Image loading="lazy" decoding="async" src="/images/computerPage/my-computer-main-banner.jpg" alt="yoga" width="1280" height="568" />
 				</picture>
 				{/* <!--Change the svg path fill color to whatever color the section below is so you can match it and create the illusion it is all one piece--> */}
 				<svg className="cs-wave" width="1920" height="179" viewBox="0 0 1920 179" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,7 +46,7 @@ export default function NewComputer() {
 					<picture>
 					<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-1-dirty-old-computer.jpg" />
 					<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-1-dirty-old-computer.jpg" />
-					<img loading="lazy" decoding="async" src="/images/computerPage/gallery-1-dirty-old-computer.jpg" alt="gallery" width="272" height="320" />
+					<Image loading="lazy" decoding="async" src="/images/computerPage/gallery-1-dirty-old-computer.jpg" alt="gallery" width="272" height="320" />
 					</picture>
 				</Link>
 				{/* Picture 2 */}
@@ -53,7 +54,7 @@ export default function NewComputer() {
 					<picture>
 					<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-2-computer-taken-apart.jpg" />
 					<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-2-computer-taken-apart.jpg" />
-					<img loading="lazy" decoding="async" src="/images/computerPage/gallery-2-computer-taken-apart.jpg" alt="gallery" width="272" height="320" />
+					<Image loading="lazy" decoding="async" src="/images/computerPage/gallery-2-computer-taken-apart.jpg" alt="gallery" width="272" height="320" />
 					</picture>
 				</Link>
 				{/* Picture 3 */}
@@ -61,7 +62,7 @@ export default function NewComputer() {
 					<picture>
 					<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-3-begin-motherboard-install.jpg" />
 					<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-3-begin-motherboard-install.jpg" />
-					<img loading="lazy" decoding="async" src="/images/computerPage/gallery-3-begin-motherboard-install.jpg" alt="gallery" width="272" height="320" />
+					<Image loading="lazy" decoding="async" src="/images/computerPage/gallery-3-begin-motherboard-install.jpg" alt="gallery" width="272" height="320" />
 					</picture>
 				</Link>
 				{/* Picture 4 */}
@@ -69,7 +70,7 @@ export default function NewComputer() {
 					<picture>
 					<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-4-graphics-card-comparison.jpg" />
 					<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-4-graphics-card-comparison.jpg" />
-					<img loading="lazy" decoding="async" src="/images/computerPage/gallery-4-graphics-card-comparison.jpg" alt="gallery" width="272" height="320" />
+					<Image loading="lazy" decoding="async" src="/images/computerPage/gallery-4-graphics-card-comparison.jpg" alt="gallery" width="272" height="320" />
 					</picture>
 				</Link>
 				{/* Picture 5 */}
@@ -77,7 +78,7 @@ export default function NewComputer() {
 					<picture>
 					<source media="(max-width: 600px)" srcSet="/images/computerPage/gallery-5-final-computer-assembly.jpg" />
 					<source media="(min-width: 601px)" srcSet="/images/computerPage/gallery-5-final-computer-assembly.jpg" />
-					<img loading="lazy" decoding="async" src="/images/computerPage/gallery-5-final-computer-assembly.jpg" alt="gallery" width="272" height="320" />
+					<Image loading="lazy" decoding="async" src="/images/computerPage/gallery-5-final-computer-assembly.jpg" alt="gallery" width="272" height="320" />
 					</picture>
 				</Link>
 				</div>
@@ -176,16 +177,16 @@ export default function NewComputer() {
 					<div className="cs-image-group">
 						{/* <!--Floating Box--> */}
 						<div className="cs-box">
-							<img className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/amd-header-logo.svg" alt="icon" width="521" height="60" aria-hidden="true" />
+							<Image className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/amd-header-logo.svg" alt="icon" width="521" height="60" aria-hidden="true" />
 						</div>
 						{/* <!--Big Background Image--> */}
 						<picture className="cs-picture ryzen">
 							<source media="(max-width: 600px)" srcSet="/images/computerPage/amd-ryzen-7-processor-front-back.jpg" />
 							<source media="(min-width: 601px)" srcSet="/images/computerPage/amd-ryzen-7-processor-front-back.jpg" />
-							<img loading="lazy" decoding="async" src="/images/computerPage/amd-ryzen-7-processor-front-back.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<Image loading="lazy" decoding="async" src="/images/computerPage/amd-ryzen-7-processor-front-back.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
-						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
+						<Image className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
 					</div>
 					{/* <!-- Right Content Section--> */}
 					<div className="cs-content">
@@ -251,16 +252,16 @@ export default function NewComputer() {
 					<div className="cs-image-group">
 						{/* <!--Floating Box--> */}
 						<div className="cs-box">
-							<img className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/republic-of-gamers-logo-thumbnail-v2.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
+							<Image className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/republic-of-gamers-logo-thumbnail-v2.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
 						</div>
 						{/* <!--Big Background Image--> */}
 						<picture className="cs-picture">
 							<source media="(max-width: 600px)" srcSet="/images/computerPage/rog-strix-b450-f-kgaming-motherboard.jpg" />
 							<source media="(min-width: 601px)" srcSet="/images/computerPage/rog-strix-b450-f-kgaming-motherboard.jpg" />
-							<img loading="lazy" decoding="async" src="/images/computerPage/rog-strix-b450-f-kgaming-motherboard.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<Image loading="lazy" decoding="async" src="/images/computerPage/rog-strix-b450-f-kgaming-motherboard.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
-						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
+						<Image className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
 					</div>
 					{/* <!-- Right Content Section--> */}
 					<div className="cs-content">
@@ -338,16 +339,16 @@ export default function NewComputer() {
 					<div className="cs-image-group">
 						{/* <!--Floating Box--> */}
 						<div className="cs-box">
-							<img className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/amd-header-logo.svg" alt="icon" width="521" height="60" aria-hidden="true" />
+							<Image className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/amd-header-logo.svg" alt="icon" width="521" height="60" aria-hidden="true" />
 						</div>
 						{/* <!--Big Background Image--> */}
 						<picture className="cs-picture ryzen">
 							<source media="(max-width: 600px)" srcSet="/images/computerPage/computer-ram-four-sticks.jpg" />
 							<source media="(min-width: 601px)" srcSet="/images/computerPage/computer-ram-four-sticks.jpg" />
-							<img loading="lazy" decoding="async" src="/images/computerPage/computer-ram-four-sticks.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<Image loading="lazy" decoding="async" src="/images/computerPage/computer-ram-four-sticks.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
-						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
+						<Image className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
 					</div>
 					{/* <!-- Right Content Section--> */}
 					<div className="cs-content">
@@ -414,16 +415,16 @@ export default function NewComputer() {
 					<div className="cs-image-group">
 						{/* <!--Floating Box--> */}
 						<div className="cs-box">
-							<img className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/intel-arc-logo.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
+							<Image className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/intel-arc-logo.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
 						</div>
 						{/* <!--Big Background Image--> */}
 						<picture className="cs-picture">
 							<source media="(max-width: 600px)" srcSet="/images/computerPage/asrock-intel-arc-a770-phantom-gaming-16gb-oc-side-angle.jpg" />
 							<source media="(min-width: 601px)" srcSet="/images/computerPage/asrock-intel-arc-a770-phantom-gaming-16gb-oc-side-angle.jpg" />
-							<img loading="lazy" decoding="async" src="/images/computerPage/asrock-intel-arc-a770-phantom-gaming-16gb-oc-side-angle.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<Image loading="lazy" decoding="async" src="/images/computerPage/asrock-intel-arc-a770-phantom-gaming-16gb-oc-side-angle.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
-						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
+						<Image className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
 					</div>
 					{/* <!-- Right Content Section--> */}
 					<div className="cs-content">
@@ -514,16 +515,16 @@ export default function NewComputer() {
 					<div className="cs-image-group">
 						{/* <!--Floating Box--> */}
 						<div className="cs-box">
-							<img className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/samsung-logo.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
+							<Image className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/samsung-logo.jpg" alt="icon" width="521" height="60" aria-hidden="true" />
 						</div>
 						{/* <!--Big Background Image--> */}
 						<picture className="cs-picture ryzen">
 							<source media="(max-width: 600px)" srcSet="/images/computerPage/samsung-990evo-2tb-ssd.jpg" />
 							<source media="(min-width: 601px)" srcSet="/images/computerPage/samsung-990evo-2tb-ssd.jpg" />
-							<img loading="lazy" decoding="async" src="/images/computerPage/samsung-990evo-2tb-ssd.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<Image loading="lazy" decoding="async" src="/images/computerPage/samsung-990evo-2tb-ssd.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
-						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
+						<Image className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
 					</div>
 					{/* <!-- Right Content Section--> */}
 					<div className="cs-content">
@@ -597,10 +598,10 @@ export default function NewComputer() {
 						<picture className="cs-picture">
 							<source media="(max-width: 600px)" srcSet="/images/computerPage/powerspec-750w-power-supply-unit-with-box.jpg" />
 							<source media="(min-width: 601px)" srcSet="/images/computerPage/powerspec-750w-power-supply-unit-with-box.jpg" />
-							<img loading="lazy" decoding="async" src="/images/computerPage/powerspec-750w-power-supply-unit-with-box.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<Image loading="lazy" decoding="async" src="/images/computerPage/powerspec-750w-power-supply-unit-with-box.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
-						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
+						<Image className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
 					</div>
 					{/* <!-- Right Content Section--> */}
 					<div className="cs-content">
@@ -672,16 +673,16 @@ export default function NewComputer() {
 					<div className="cs-image-group">
 						{/* <!--Floating Box--> */}
 						<div className="cs-box">
-							<img className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/bequietgroot.jpg" alt="icon" width="250" height="250" aria-hidden="true" />
+							<Image className="cs-icon" loading="lazy" decoding="async" src="/images/computerPage/bequietgroot.jpg" alt="icon" width="250" height="250" aria-hidden="true" />
 						</div>
 						{/* <!--Big Background Image--> */}
 						<picture className="cs-picture ryzen">
 							<source media="(max-width: 600px)" srcSet="/images/computerPage/Pure-Rock-Slim-2-Heroshot.jpg" />
 							<source media="(min-width: 601px)" srcSet="/images/computerPage/Pure-Rock-Slim-2-Heroshot.jpg" />
-							<img loading="lazy" decoding="async" src="/images/computerPage/Pure-Rock-Slim-2-Heroshot.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
+							<Image loading="lazy" decoding="async" src="/images/computerPage/Pure-Rock-Slim-2-Heroshot.jpg" alt="meeting" width="522" height="560" aria-hidden="true" />
 						</picture>
 						{/* <!--Swirl--> */}
-						<img className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
+						<Image className="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/swirl.svg" alt="icon" width="715" height="715" aria-hidden="true" />
 					</div>
 					{/* <!-- Right Content Section--> */}
 					<div className="cs-content">

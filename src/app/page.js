@@ -1,6 +1,7 @@
 "use client";
-import Link from 'next/link';
 
+import Link from 'next/link';
+import Image from 'next/image';
 import "./page.css";             
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
 						<picture className="cs-picture">
 							<source media="(max-width: 600px)" srcSet="./images/michael-raiders-clothing.jpg" />
 							<source media="(min-width: 601px)" srcSet="./images/michael-raiders-clothing.jpg" />
-							<img loading="lazy" decoding="async" src="./images/michael-raiders-clothing.jpg" alt="body builder" width="500" height="552" aria-hidden="true" />
+							<Image loading="lazy" decoding="async" src="/images/michael-raiders-clothing.jpg" alt="body builder" width="500" height="552" aria-hidden="true" />
 						</picture>
 					</div>
 					<div className="cs-content">
@@ -51,7 +52,7 @@ export default function Home() {
 					<ul className="cs-card-group">
 						<li className="cs-item">
 							<picture className="cs-picture">
-								<img className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/lightbulb.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true" />
+								<Image className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/lightbulb.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true" />
 							</picture>
 							<h3 className="cs-h3">About Me</h3>
 							<p className="cs-item-p">
@@ -60,7 +61,7 @@ export default function Home() {
 						</li>
 						<li className="cs-item">
 							<picture className="cs-picture">
-								<img className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/puzzle.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true" />
+								<Image className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/puzzle.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true" />
 							</picture>
 							<h3 className="cs-h3">Web Tools, Technologies, & Tips</h3>
 							<p className="cs-item-p">
@@ -69,7 +70,7 @@ export default function Home() {
 						</li>
 						<li className="cs-item">
 							<picture className="cs-picture">
-								<img className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/box.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true" />
+								<Image className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/box.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true" />
 							</picture>
 							<h3 className="cs-h3">Projects</h3>
 							<p className="cs-item-p">
@@ -78,7 +79,7 @@ export default function Home() {
 						</li>
 						<li className="cs-item">
 							<picture className="cs-picture">
-								<img className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true" />
+								<Image className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear.svg" alt="icon" width="40" height="40" loading="lazy" decoding="async" aria-hidden="true" />
 							</picture>
 							<h3 className="cs-h3">Interesting stuff</h3>
 							<p className="cs-item-p">
@@ -88,7 +89,7 @@ export default function Home() {
 					</ul>
 				</div>
 				{/* <!--Tire Screech--> */}
-				<img className="cs-graphic" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/tire-mark.svg" alt="icon" width="840" height="357" loading="lazy" decoding="async" aria-hidden="true" />
+				<Image className="cs-graphic" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/tire-mark.svg" alt="icon" width="840" height="357" loading="lazy" decoding="async" aria-hidden="true" />
 			</section>
 
 
@@ -113,15 +114,15 @@ export default function Home() {
 						{/* <!--Car--> */}
 						<picture className="cs-image">
 							{/* <!--Mobile Image--> */}
-							<source media="(max-width: 600px)" srcSet="./images/08-acura-rdx-transparent-rdx-v2.png" />
+							<source media="(max-width: 600px)" srcSet="/images/08-acura-rdx-transparent-rdx-v2.png" />
 							{/* <!--Tablet and above Image--> */}
-							<source media="(min-width: 601px)" srcSet="./images/08-acura-rdx-transparent-rdx-v2.png" />
-							<img loading="lazy" decoding="async" src="./images/08-acura-rdx-transparent-rdx-v2.png" alt="car" width="510" height="193" aria-hidden="true" />
+							<source media="(min-width: 601px)" srcSet="/images/08-acura-rdx-transparent-rdx-v2.png" />
+							<Image loading="lazy" decoding="async" src="/images/08-acura-rdx-transparent-rdx-v2.png" alt="car" width="510" height="193" aria-hidden="true" />
 						</picture>
 						<ul className="cs-card-group">
 							<li className="cs-item">
 								<picture className="cs-picture">
-									<img className="cs-icon"
+									<Image className="cs-icon"
 											src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/engineering%201%20red.svg"
 											loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true" />
 								</picture>
@@ -135,7 +136,7 @@ export default function Home() {
 							</li>
 							<li className="cs-item">
 								<picture className="cs-picture">
-									<img className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/brake-red.svg"
+									<Image className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/brake-red.svg"
 											loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true" />
 								</picture>
 								{/* <!-- Text Grouped For Flexbox--> */}
@@ -146,7 +147,7 @@ export default function Home() {
 							</li>
 							<li className="cs-item">
 								<picture className="cs-picture">
-									<img className="cs-icon"
+									<Image className="cs-icon"
 											src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/air-conditioner-red.svg"
 											loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true" />
 								</picture>
@@ -158,7 +159,7 @@ export default function Home() {
 							</li>
 							<li className="cs-item">
 								<picture className="cs-picture">
-									<img className="cs-icon"
+									<Image className="cs-icon"
 											src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/motor%201%20red.svg" loading="lazy"
 											decoding="async" alt="icon" width="33" height="38" aria-hidden="true" />
 								</picture>
@@ -170,7 +171,7 @@ export default function Home() {
 							</li>
 							<li className="cs-item">
 								<picture className="cs-picture">
-									<img className="cs-icon"
+									<Image className="cs-icon"
 											src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel-red.svg" loading="lazy"
 											decoding="async" alt="icon" width="33" height="38" aria-hidden="true" />
 								</picture>
@@ -182,7 +183,7 @@ export default function Home() {
 							</li>
 							<li className="cs-item">
 								<picture className="cs-picture">
-									<img className="cs-icon"
+									<Image className="cs-icon"
 											src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/contamination-red.svg"
 											loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true" />
 								</picture>
@@ -217,7 +218,7 @@ export default function Home() {
 								<source media="(max-width: 600px)" srcSet="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy2.jpg" />
 								{/* <!--Tablet and above Image--> */}
 								<source media="(min-width: 601px)" srcSet="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy2.jpg" />
-								<img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy2.jpg" alt="therapy" width="369" height="290" />
+								<Image loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy2.jpg" alt="therapy" width="369" height="290" />
 							</picture>
 							<div className="cs-item-content">
 								<span className="cs-date">07 Sep, 2022</span>
@@ -227,7 +228,7 @@ export default function Home() {
 								</p>
 								<a href="#" className="cs-link">
 									Read More
-									<img className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true" />
+									<Image className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true" />
 								</a>
 							</div>
 						</li>
@@ -237,7 +238,7 @@ export default function Home() {
 								<source media="(max-width: 600px)" srcSet="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy3.jpg" />
 								{/* <!--Tablet and above Image--> */}
 								<source media="(min-width: 601px)" srcSet="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy3.jpg" />
-								<img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy3.jpg" alt="therapy" width="369" height="290" />
+								<Image loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy3.jpg" alt="therapy" width="369" height="290" />
 							</picture>
 							<div className="cs-item-content">
 								<span className="cs-date">07 Sep, 2022</span>
@@ -247,7 +248,7 @@ export default function Home() {
 								</p>
 								<a href="#" className="cs-link">
 									Read More
-									<img className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true" />
+									<Image className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true" />
 								</a>
 							</div>
 						</li>
@@ -257,7 +258,7 @@ export default function Home() {
 								<source media="(max-width: 600px)" srcSet="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" />
 								{/* <!--Tablet and above Image--> */}
 								<source media="(min-width: 601px)" srcSet="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" />
-								<img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" alt="therapy" width="369" height="290" />
+								<Image loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" alt="therapy" width="369" height="290" />
 							</picture>
 							<div className="cs-item-content">
 								<span className="cs-date">07 Sep, 2022</span>
@@ -267,7 +268,7 @@ export default function Home() {
 								</p>
 								<a href="#" className="cs-link">
 									Read More
-									<img className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true" />
+									<Image className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true" />
 								</a>
 							</div>
 						</li>
@@ -277,7 +278,7 @@ export default function Home() {
 								<source media="(max-width: 600px)" srcSet="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" />
 								{/* <!--Tablet and above Image--> */}
 								<source media="(min-width: 601px)" srcSet="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" />
-								<img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" alt="therapy" width="369" height="290" />
+								<Image loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Ftherapy.jpg" alt="therapy" width="369" height="290" />
 							</picture>
 							<div className="cs-item-content">
 								<span className="cs-date">07 Sep, 2022</span>
@@ -287,7 +288,7 @@ export default function Home() {
 								</p>
 								<a href="#" className="cs-link">
 									Read More
-									<img className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true" />
+									<Image className="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Forange-carrot-right.svg" alt="arrow right" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true" />
 								</a>
 							</div>
 						</li>
